@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mounika | Corporate Employee Career Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">CareerPath</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#upload">Upload</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="section">
+    <h1>Welcome to My Corporate Employee Career Portfolio</h1>
+    <p>Aspiring software professional with a focus on growth and learning.</p>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I am a second-year student with a keen interest in pursuing a career in the software industry. 
+      I am passionate about enhancing my technical knowledge and developing the skills required 
+      to excel in a professional environment.
+    </p>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>My Skills</h2>
+    <ul>
+      <li>Communication</li>
+      <li>Leadership</li>
+      <li>Teamwork</li>
+      <li>Problem Solving</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+    </ul>
+  </section>
+
+  <section id="upload" class="section">
+    <h2>Employee Resume Upload</h2>
+    <p>Employees can upload their latest resume here for HR review and career tracking.</p>
+    
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+      <div class="file-upload">
+        <label for="fileInput" class="upload-label">📁 Choose File</label>
+        <input type="file" id="fileInput" name="resume" accept=".pdf,.doc,.docx" required />
+        <span id="fileName">No file selected</span>
+      </div>
+      <button type="submit" class="upload-btn">Upload Resume</button>
+    </form>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: mounikakanagaraj10@gmail.com</p>
+    <p>Phone: 938475*****</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Mounika | Corporate Employee Career Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
